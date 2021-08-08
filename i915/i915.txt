@@ -1,0 +1,31 @@
+/sys/devices/pci0000:00/0000:00:02.0/mdev_supported_types/i915-GVTg_V5_4/ 
+
+410d6b88-0803-418b-ad1a-83e5a35bedd0
+echo "$GVT_GUID" > "/sys/devices/pci${GVT_DOM}/$GVT_PCI/mdev_supported_types/$GVT_TYPE/create"
+
+echo "410d6b88-0803-418b-ad1a-83e5a35bedd0" > "/sys/devices/pci0000:00/0000:00:02.0/mdev_supported_types/i915-GVTg_V5_4/"
+
+GVT_PCI=0000:00:02.0
+GVT_GUID=410d6b88-0803-418b-ad1a-83e5a35bedd0
+MDEV_TYPE=i915-GVTg_V5_4
+DOMAIN=win10
+
+
+
+bios uuid-
+36444335-3233-5130-4A44-EC8EB55672F4
+
+vm bios-
+295f99d8-6187-486b-99cd-2603d1b2c5c9
+
+
+
+new
+b83ee4b5-d274-43b6-ae3b-89aaa4836d3c
+
+
+<interface type="network">
+  <source network="default"/>
+  <mac address="52:54:00:0e:16:a8"/>
+  <model type="e1000e"/>
+</interface>
